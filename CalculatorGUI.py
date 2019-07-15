@@ -43,7 +43,7 @@ class Calc:
     def update(self,mthdname):
         if mthdname=='add':
             self.total+=self.input_num
-        elif mthdname='sub':
+        elif mthdname=='sub':
             self.total-=self.input_num
         else:
             self.total=0
